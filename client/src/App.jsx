@@ -3,7 +3,8 @@ import axios from 'axios';
 
 import TodoItem from "./components/TodoItem";
 
-const API = 'http://localhost:3000/api/todos'
+//const API = 'http://localhost:3000/api/todos'
+const API = 'https://mern-todo-app-dnhr.onrender.com/api/todos'
 
 const App = () => {
   	const [todos, setTodos] = useState([]);
